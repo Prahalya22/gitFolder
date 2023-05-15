@@ -20,7 +20,7 @@ Cp - copy file into that directory
 clear
 
 
-git branch <branch-name> - creates a branch
+git branch branch-name - creates a branch
   
 Git branch - to see all branches
 
@@ -45,13 +45,13 @@ Git checkout filename ->discards changes made to a specific file and restores it
   
 Git checkout commit_id -> this is to navigate to a specific commit, commit_id obtained from logs
 
-Git checkout <branch>- switch to the specified branch
+Git checkout branch- switch to the specified branch
 
-git checkout -b <new-branch> — creates a new branch and switches to it
+git checkout -b new-branch — creates a new branch and switches to it
 (Checkout is read-only)
 
 
-Git branch -D <branch-name> -deletes branch that is not currently working on( if its current branch then error)
+Git branch -D branch-name -deletes branch that is not currently working on( if its current branch then error)
 
 
 Git revert commit_id ->is used to create a new commit that undoes the changes made in the specified commit
