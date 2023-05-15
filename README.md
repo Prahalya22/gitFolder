@@ -1,18 +1,27 @@
 # gitFolder
-GIT
+*GIT*
+
 
 
 Cd
+
 Mkdir -create folders
+
 Touch - create files
+
 Mv - rename
+
 Rm - delete file
+
 Rm -rf - dlt folder
+
 Cp - copy file into that directory
+
 clear
 
 
 git branch <branch-name> - creates a branch
+  
 Git branch - to see all branches
 
 
@@ -22,14 +31,18 @@ Git status
 
 
 Git add .
+  
+  
 Git commit -m “message”
 
 
 Git log -> to see all commits history
+  
 Git log —oneline 
 
 
 Git checkout filename ->discards changes made to a specific file and restores it to its state in the last commit.
+  
 Git checkout commit_id -> this is to navigate to a specific commit, commit_id obtained from logs
 
 Git checkout <branch>- switch to the specified branch
@@ -45,10 +58,13 @@ Git revert commit_id ->is used to create a new commit that undoes the changes ma
 
 
 Git reset — mixed commit_id ->will remove that commit from history but does not remove the code.  - shows as modified files
+  
 git checkout . - to unmodified the file — remove changes
 
 Git reset —soft commit_id - staged green files
+  
 Git reset . 
+  
 Git checkout .
 
 Git reset —hard commit_id — remove all other commits until the specified one
@@ -61,20 +77,27 @@ Git rm -r —cached — to remove cache
 
 
 Git remote add origin <repo-link>
+  
 Git branch -M master - to rename current branch
+  
 Git push origin master
+  
 
 Git pull origin master
 
 
 Git checkout master -now you are in master branch
+  
 Git merge dev - now dev branch is merged with master
 
 
 If conflicts,
 Resolve it
+  
 Git add .
+  
 Git commit
+  
 Git push origin master
 
 
